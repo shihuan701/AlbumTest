@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63367" started-at="2016-08-01T04:56:19Z" finished-at="2016-08-01T04:57:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63367" started-at="2016-08-01T04:56:19Z" finished-at="2016-08-01T04:57:23Z">
+      <class name="com.myid.albumtest.LocalBrowse">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.myid.albumtest.LocalBrowse@573f2bb1]" name="beforeClass" is-config="true" duration-ms="12196" started-at="2016-08-01T12:56:19Z" finished-at="2016-08-01T12:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.myid.albumtest.LocalBrowse@573f2bb1]" name="launchApp" duration-ms="1930" started-at="2016-08-01T12:56:31Z" finished-at="2016-08-01T12:56:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="swipeGuidePage()[pri:0, instance:com.myid.albumtest.LocalBrowse@573f2bb1]" name="swipeGuidePage" duration-ms="7027" started-at="2016-08-01T12:56:33Z" depends-on-methods="com.myid.albumtest.LocalBrowse.launchApp" finished-at="2016-08-01T12:56:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swipeGuidePage -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.myid.albumtest.LocalBrowse@573f2bb1]" name="login" duration-ms="17730" started-at="2016-08-01T12:56:40Z" depends-on-methods="com.myid.albumtest.LocalBrowse.swipeGuidePage" finished-at="2016-08-01T12:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="downLoadToLocal()[pri:0, instance:com.myid.albumtest.LocalBrowse@573f2bb1]" name="downLoadToLocal" duration-ms="14160" started-at="2016-08-01T12:56:58Z" depends-on-methods="com.myid.albumtest.LocalBrowse.login" finished-at="2016-08-01T12:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downLoadToLocal -->
+        <test-method status="PASS" signature="deletePic()[pri:0, instance:com.myid.albumtest.LocalBrowse@573f2bb1]" name="deletePic" duration-ms="8226" started-at="2016-08-01T12:57:12Z" depends-on-methods="com.myid.albumtest.LocalBrowse.downLoadToLocal" finished-at="2016-08-01T12:57:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePic -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.myid.albumtest.LocalBrowse@573f2bb1]" name="afterClass" is-config="true" duration-ms="2076" started-at="2016-08-01T12:57:21Z" finished-at="2016-08-01T12:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.myid.albumtest.LocalBrowse -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

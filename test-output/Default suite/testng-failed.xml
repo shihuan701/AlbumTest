@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.myid.albumtest.LocalBrowse">
+        <methods>
+          <include name="login"/>
+          <include name="deletePic"/>
+          <include name="swipeGuidePage"/>
+          <include name="beforeClass"/>
+          <include name="launchApp"/>
+          <include name="afterClass"/>
+          <include name="downLoadToLocal"/>
+        </methods>
+      </class> <!-- com.myid.albumtest.LocalBrowse -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
